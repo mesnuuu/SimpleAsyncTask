@@ -37,7 +37,7 @@ public class SimpleAsyncTask extends AsyncTask<Void, Void, String> {
         return "Awake at last after sleeping for " + s + " milliseconds!";
     }
 
-    
+
     protected void onPostExecute(String result) {
         mTextView.get().setText(result);
     }
