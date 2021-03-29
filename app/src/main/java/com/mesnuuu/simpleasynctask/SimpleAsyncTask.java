@@ -24,7 +24,7 @@ public class SimpleAsyncTask extends AsyncTask<Void, Void, String> {
 
         // Make the task take long enough that we have
         // time to rotate the phone while it is running
-        int s = n * 200;
+        int s = n * 400;
 
         // Sleep for the random amount of time
         try {
